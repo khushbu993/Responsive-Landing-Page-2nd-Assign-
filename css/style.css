@@ -1,0 +1,88 @@
+    body {
+        font-family: Poppins;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #FFFBF0;
+    }
+    h1,h2,h3,h4,h5{
+        font-family: Bebas Neue;
+    }
+    h1{
+        font-weight: 500;
+        font-size: 80px;
+    }
+    h2{
+        font-size: 36px;
+        color: #151225;
+    }
+    h3{
+        color: #fd2904;
+    }
+    .penguin-nav{
+        font-family: Bebas Neue;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: auto;
+    }
+    p{
+        text-align: justify;
+        max-width: 400px;
+        font-size: 12px;
+    }
+    .penguin-button{
+        background-image: linear-gradient(to right, #389e2f, #095802);
+        width: 170px; 
+        height: 60px;
+        color: white;
+        font-family: 'Bebas Neue';
+        font-size: 25px;
+        height: 60px;
+        width: 170px;
+        text-align: center;
+        border: 0;
+        border-radius: 0.5em;
+    }
+    .penguin-button:hover{
+        background-image: linear-gradient(to right, #fd4830, #c71e07);
+    }
+    .penguin-button img{
+        padding: 7px;
+        width: 40px;
+        height: 40px;
+    }
+    .category{
+        width: 370px;
+        height: 200px;
+        border: 0;
+        border-radius: 30px;
+    }
+    .category-footer{
+        border: 0;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .c-img{
+        background-color: #F1F1F1;
+        border: 20px solid white;
+        border-radius: 30px;
+        width: 370px;
+        height: 370px;
+    }
+.best-sell{
+    border: 0;
+    border-radius: 30px;
+}
+.other-brand{
+    border: 0;
+    padding: 20px;
+    align-content: center;
+}
+.other-brand img{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
